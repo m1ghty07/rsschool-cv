@@ -26,3 +26,19 @@ Hi! My name's Serhii. I'm 28. My main goal for now - become a front-end develope
 - JS
 - Git
 - Figma
+
+### Code example
+
+```
+const debounce = (fn, ms) => {
+  let timeout;
+
+  return function () {
+    const fnCall = () => {
+      fn.apply(this, arguments);
+    };
+    clearTimeout(timeout);
+    timeout = setTimeout(fnCall, ms);
+  };
+};
+```
