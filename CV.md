@@ -42,3 +42,15 @@ const debounce = (fn, ms) => {
   };
 };
 ```
+
+### Education:
+
+- Magister, Donetsk National Technical University - Ukraine
+- freeCodeCamp JavaScript Algorithms and Data Structures Course
+- Udemy Courses
+
+### Languages
+
+- Ukrainian
+- Russian
+- English - Pre-intermediate level
